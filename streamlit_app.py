@@ -10,9 +10,8 @@ def main():
         file_contents = file.read()
         st.write("File contents:")
         st.write(file_contents)
-        
 
-if __name__ == "__main__":    
+if __name__ == "__main__":
     st.title("Test Program")
-    st.write("<p style='text-align: center;'>Hello, *World!*:sunglasses:</p>", unsafe_allow_html=True)
+    st.markdown("Hello, *World!* :sunglasses:")
     main()
