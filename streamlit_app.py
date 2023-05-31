@@ -2,5 +2,16 @@ import streamlit as st
 
 
 st.set_page_config(layout="wide")
-st.write('Hello, *World!* :sunglasses:')
 
+def main():
+    st.title("File Upload Example")
+    file = st.file_uploader("Upload a file")
+
+    if file is not None:
+        file_contents = file.read()
+        st.write("File contents:")
+        st.write(file_contents)
+
+if __name__ == "__main__":
+    main()
+    st.write('Hello, *World!* :sunglasses:')
