@@ -16,6 +16,5 @@ def main():
 if __name__ == "__main__":
     
     st.title("Test Program")
-    st.write("<p style='text-align: center;'>Center aligned text</p>", unsafe_allow_html=True)
-    st.write('Hello, *World!* :sunglasses:')
+    st.write("<p style='text-align: center;'>'Hello, *World!* :sunglasses:'</p>", unsafe_allow_html=True)
     main()
