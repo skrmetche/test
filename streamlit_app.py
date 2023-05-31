@@ -2,5 +2,5 @@ import streamlit as st
 
 
 st.set_page_config(layout="wide")
-print("Hello World!")
+st.write('Hello, *World!* :sunglasses:')
 
