@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 st.set_page_config(layout="wide")
 
 def main():
@@ -13,8 +12,7 @@ def main():
         st.write(file_contents)
         
 
-if __name__ == "__main__":
-    
+if __name__ == "__main__":    
     st.title("Test Program")
     st.write("<p style='text-align: center;'>'Hello, *World!* :sunglasses:'</p>", unsafe_allow_html=True)
     main()
